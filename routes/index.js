@@ -4,6 +4,7 @@ const controllers = require('../controllers/index');
 
 router.get('/', controllers.welcomeController.getHomePage);
 router.get('/api', controllers.listAllApiController.getAllApis);
+router.get('/test-pusher', controllers.listAllApiController.testPusher);
 
 router.post('/spin-wheel', controllers.spinnerController.spinWheel);
 router.post('/add-people', controllers.spinnerController.addPeople);

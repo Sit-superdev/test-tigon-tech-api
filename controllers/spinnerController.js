@@ -62,4 +62,7 @@ exports.removePeople = async (req, res) => {
     console.error("Error in spinRandom controller:", error);
     res.status(500).json({ success: false, message: "เกิดข้อผิดพลาดในการหมุนสุ่ม" });
   }
+
+
+  
 };
