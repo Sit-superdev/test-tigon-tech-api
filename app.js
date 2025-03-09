@@ -1,13 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
-
-// นำเข้าการเชื่อมต่อกับฐานข้อมูล
-
-// นำเข้า Pusher config
 
 
 const app = express();
